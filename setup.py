@@ -9,9 +9,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/mmuchsin/ipynb_renderer",
-    project_urls={
-        "Bug Tracker": "https://github.com/mmuchsin/ipynb_renderer/issues"
-    },
+    project_urls={"Bug Tracker": "https://github.com/mmuchsin/ipynb_renderer/issues"},
     package_dir={"": "src"},
-    packages=find_packages("src")
+    packages=find_packages("src"),
 )
