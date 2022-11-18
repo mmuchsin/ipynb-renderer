@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="ipynb renderer",
+    name="ipynb_renderer",
     version="0.0.1",
     author="muchsin",
     description="IPython Notebooks Renderer",
