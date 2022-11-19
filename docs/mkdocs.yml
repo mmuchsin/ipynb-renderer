@@ -11,8 +11,10 @@ theme:
   name: material
   language: en
   features:
+    - navigation.tabs
     - navigation.sections
     - toc.integrate
+    - navigation.top
   palette:
     - scheme: default
       toggle:
