@@ -10,6 +10,8 @@ repo_url: https://github.com/mmuchsin/ipynb_renderer
 theme:
   name: material
   language: en
+  features:
+    - navigation.tabs
   palette:
     - scheme: default
       toggle:
