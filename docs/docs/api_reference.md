@@ -2,7 +2,7 @@
 
 ## Rendering Youtube videos
 
-!!! note "example"
+??? note "example"
     ### Short example
     ```python
     from ipynb_renderer import render_YouTube_video
@@ -22,7 +22,7 @@
 
 ## Rendering reference website
 
-!!! note "example"
+??? note "example"
     ### Short example
     ```python
     from ipynb_renderer import render_site
