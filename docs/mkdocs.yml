@@ -1,0 +1,26 @@
+site_name: ipynb_renderer documentation
+
+nav:
+  - Home: index.md
+  - API_Reference: api_reference.md
+
+theme:
+  name: material
+
+language: en
+palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline 
+      name: Switch to dark mode
+    primary: teal
+    accent: purple 
+  - scheme: slate 
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode    
+    primary: teal
+    accent: lime 
+
+plugins:
+  - search
