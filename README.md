@@ -1,1 +1,5 @@
-# IPYNB Renderer
+# ipynb_renderer
+
+A simple package to render youtube videos and websites.
+
+for more detail check this [documentation](https://mmuchsin.github.io/ipynb_renderer/)
