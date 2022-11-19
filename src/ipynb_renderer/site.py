@@ -1,6 +1,6 @@
 from IPython import display
 from ensure import ensure_annotations
-import urllib.request
+from urllib.request import urlopen
 from ipynb_renderer.custom_exception import InvalidURLException
 from ipynb_renderer.logger import logger
 
@@ -8,7 +8,7 @@ from ipynb_renderer.logger import logger
 @ensure_annotations
 def is_valid(URL: str) -> bool:
     try:
-        response_status = urllib.request.urlopen(URL).getcode()
+        response_status = urlopen(URL).getcode()
         assert response_status == 200
         logger.debug(f"response_status: {response_status}")
         return True
