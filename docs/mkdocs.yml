@@ -12,6 +12,7 @@ theme:
   language: en
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     - scheme: default
       toggle:
